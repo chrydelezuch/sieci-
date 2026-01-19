@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/chrystian/Pulpit/serwer_irc/build/_deps/sqliteorm-subbuild/CMakeFiles/sqliteorm-populate"
+		},
+		{
+			"file" : "/home/chrystian/Pulpit/serwer_irc/build/_deps/sqliteorm-subbuild/CMakeFiles/sqliteorm-populate.rule"
+		},
+		{
+			"file" : "/home/chrystian/Pulpit/serwer_irc/build/_deps/sqliteorm-subbuild/CMakeFiles/sqliteorm-populate-complete.rule"
+		},
+		{
+			"file" : "/home/chrystian/Pulpit/serwer_irc/build/_deps/sqliteorm-subbuild/sqliteorm-populate-prefix/src/sqliteorm-populate-stamp/sqliteorm-populate-build.rule"
+		},
+		{
+			"file" : "/home/chrystian/Pulpit/serwer_irc/build/_deps/sqliteorm-subbuild/sqliteorm-populate-prefix/src/sqliteorm-populate-stamp/sqliteorm-populate-configure.rule"
+		},
+		{
+			"file" : "/home/chrystian/Pulpit/serwer_irc/build/_deps/sqliteorm-subbuild/sqliteorm-populate-prefix/src/sqliteorm-populate-stamp/sqliteorm-populate-download.rule"
+		},
+		{
+			"file" : "/home/chrystian/Pulpit/serwer_irc/build/_deps/sqliteorm-subbuild/sqliteorm-populate-prefix/src/sqliteorm-populate-stamp/sqliteorm-populate-install.rule"
+		},
+		{
+			"file" : "/home/chrystian/Pulpit/serwer_irc/build/_deps/sqliteorm-subbuild/sqliteorm-populate-prefix/src/sqliteorm-populate-stamp/sqliteorm-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/chrystian/Pulpit/serwer_irc/build/_deps/sqliteorm-subbuild/sqliteorm-populate-prefix/src/sqliteorm-populate-stamp/sqliteorm-populate-patch.rule"
+		},
+		{
+			"file" : "/home/chrystian/Pulpit/serwer_irc/build/_deps/sqliteorm-subbuild/sqliteorm-populate-prefix/src/sqliteorm-populate-stamp/sqliteorm-populate-test.rule"
+		},
+		{
+			"file" : "/home/chrystian/Pulpit/serwer_irc/build/_deps/sqliteorm-subbuild/sqliteorm-populate-prefix/src/sqliteorm-populate-stamp/sqliteorm-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sqliteorm-populate"
+		],
+		"name" : "sqliteorm-populate"
+	}
+}

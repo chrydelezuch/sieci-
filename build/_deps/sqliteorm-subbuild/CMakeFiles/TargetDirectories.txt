@@ -1,0 +1,3 @@
+/home/chrystian/Pulpit/serwer_irc/build/_deps/sqliteorm-subbuild/CMakeFiles/sqliteorm-populate.dir
+/home/chrystian/Pulpit/serwer_irc/build/_deps/sqliteorm-subbuild/CMakeFiles/edit_cache.dir
+/home/chrystian/Pulpit/serwer_irc/build/_deps/sqliteorm-subbuild/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/server_irc.dir/src/main.cpp.o CMakeFiles/server_irc.dir/src/CryptoUtils.cpp.o CMakeFiles/server_irc.dir/src/Database.cpp.o CMakeFiles/server_irc.dir/src/User.cpp.o CMakeFiles/server_irc.dir/src/UserMenager.cpp.o -o server_irc  /usr/lib/x86_64-linux-gnu/libcrypto.so /usr/lib/x86_64-linux-gnu/libsqlite3.so 
