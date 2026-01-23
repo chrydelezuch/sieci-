@@ -27,8 +27,8 @@ void setnonblock(int fd) {
 
 int main() {
     
-    Database db("example.db");
-    UserManager userMenager = UserManager.getInstance();
+    database::Database db("example.db");
+    UserManager& userMenager = UserManager::getInstance();
 
     int sfd, cfd, efd, nfds, i;
     struct sockaddr_in saddr, caddr;

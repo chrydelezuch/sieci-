@@ -5,6 +5,9 @@
 #include <optional>
 
 // ===== MODELE =====
+namespace database
+{
+    
 
 struct User {
     int id;
@@ -69,3 +72,6 @@ private:
 
     Storage storage;
 };
+
+
+} // namespace name

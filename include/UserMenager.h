@@ -6,36 +6,39 @@
 #include <string>
 #include <unordered_map>
 
+
+using namespace user;
+
 class UserManager {
 private:
-    std::vector<User> users; // przechowywanie oryginalnych obiektów
-    std::unordered_map<std::string, std::vector<User*>> channelMap; // kanał -> wskaźniki do użytkowników
+    // Przechowujemy oryginalne obiekty
+    std::vector<User> users;
 
+    // Kanał -> wskaźniki do użytkowników
+    std::unordered_map<std::string, std::vector<User*>> channelMap;
+
+    // Singleton: prywatny konstruktor
     UserManager() = default;
 
-    // Pomocnicza metoda aktualizująca mapowanie kanałów
-    void updateUserChannels(User& user);
+    // Aktualizacja mapy kanałów dla użytkownika
+    void updateUserChannels(User user);
 
 public:
+    // Singleton access
     static UserManager& getInstance();
 
+    // Blokada kopiowania
     UserManager(const UserManager&) = delete;
     UserManager& operator=(const UserManager&) = delete;
 
     // Zarządzanie użytkownikami
-    void addUser(const User user);
+    void addUser(User user);
+    void removeUser(const std::string& username);
 
-    void removeUser(std::string username);
-
-
-
-    // Pobranie użytkownika po username
+    // Pobieranie użytkowników
+    std::vector<User*> getAllUsers();
     User* getUserByUserName(const std::string& username);
-
-    // Pobranie użytkownika po userId
-    User* getUserByUserId(int userId);
-
-    // Pobranie użytkowników wg kanału
+  
     std::vector<User*> getUsersByChannel(const std::string& channel);
 };
 

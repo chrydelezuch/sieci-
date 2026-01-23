@@ -245,4 +245,6 @@ CMakeFiles/server_irc.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/stl_set.h \
  /usr/include/c++/13/bits/stl_multiset.h /usr/include/c++/13/list \
  /usr/include/c++/13/bits/stl_list.h /usr/include/c++/13/bits/list.tcc \
- /usr/include/assert.h
+ /usr/include/assert.h \
+ /home/chrystian/Pulpit/serwer_irc/include/UserMenager.h \
+ /home/chrystian/Pulpit/serwer_irc/include/User.h

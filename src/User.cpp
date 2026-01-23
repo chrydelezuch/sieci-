@@ -1,5 +1,6 @@
 #include "User.h"
 
+namespace user{
 // Konstruktor
 User::User(const std::string& sessionId,
            const std::string& username,
@@ -50,4 +51,7 @@ void User::setSocketDescriptor(int socketDescriptor) {
 // Metody pomocnicze
 void User::addChannel(const std::string& channel) {
     channels.push_back(channel);
+}
+
+
 }

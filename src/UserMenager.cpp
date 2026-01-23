@@ -1,5 +1,9 @@
-#include "UserManager.h"
+#include "UserMenager.h"
 #include <algorithm>
+
+using namespace user;
+
+
 
 // Singleton
 UserManager& UserManager::getInstance() {
@@ -10,7 +14,7 @@ UserManager& UserManager::getInstance() {
 // Pomocnicza metoda aktualizująca mapowanie kanałów
 void UserManager::updateUserChannels(User user) {
     for (const auto& channel : user.getChannels()) {
-        channelMap[channel].push_back(user); 
+        channelMap[channel].push_back(&user); 
     }
 }
 
@@ -50,13 +54,7 @@ User* UserManager::getUserByUserName(const std::string& username) {
     return nullptr;
 }
 
-// Pobranie użytkownika po userId
-User* UserManager::getUserByUserId(int userId) {
-    for (auto& u : users) {
-        if (u.getUserId() == userId) return &u;
-    }
-    return nullptr;
-}
+
 
 // Pobranie użytkowników wg kanału
 std::vector<User*> UserManager::getUsersByChannel(const std::string& channel) {

@@ -2,6 +2,8 @@
 
 using namespace sqlite_orm;
 
+namespace database{
+
 Database::Database(const std::string& dbFile)
     : storage(createStorage(dbFile))
 {
@@ -48,4 +50,6 @@ Database::getUserByUsername(const std::string& username) {
     }
 
     return result.front();
+}
+
 }

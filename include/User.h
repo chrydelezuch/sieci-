@@ -4,6 +4,8 @@
 #include <string>
 #include <vector>
 
+namespace user{
+
 class User {
 private:
     std::string sessionId;
@@ -35,3 +37,6 @@ public:
 };
 
 #endif // USER_H
+ 
+
+}
